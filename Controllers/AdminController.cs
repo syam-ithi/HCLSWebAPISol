@@ -33,7 +33,7 @@ namespace HCLSWebAPI.Controllers
                 }
                 else
                 {
-                    return NotFound("The admins was not found");
+                    return NotFound("The admin were not found");
                 }
             }
             catch (Exception ex)
